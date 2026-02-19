@@ -1,17 +1,17 @@
 
 import { User } from "../api/userApi";
-
-type Props = {
+import '../assets/css/card.css'
+// Define the props for UserCard
+interface UserCardProps {
   user: User;
-};
+}
 
-export default function UserCard({ user }: Props) {
+// Display a single user
+export default function UserCard({ user }: UserCardProps) {
   return (
     <div className="card">
-      <h2>User Info</h2>
-      <p>{user.name}</p>
+      <h2>{user.name}</h2>
       <p>{user.email}</p>
     </div>
   );
 }
-
