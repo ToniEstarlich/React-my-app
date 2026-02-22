@@ -3,6 +3,7 @@
 import Header from "./components/Header";
 import Counter from "./components/Counter";
 import UserContainer from "./components/UserContainer";
+import QuoteRotator from "./components/QuoteRotator";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         <h1>Hello, I'm Toni ☄</h1>
         <Counter />
         <UserContainer />
+        <QuoteRotator />
       </main>
 
       <Footer />
