@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Counter from "./components/Counter";
 import UserContainer from "./components/UserContainer";
 import QuoteRotator from "./components/QuoteRotator";
+import MagneticButton from "./components/MagneticButton";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Counter />
         <UserContainer />
         <QuoteRotator />
+        <MagneticButton text="Launch 🚀" />
       </main>
 
       <Footer />
