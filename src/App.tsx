@@ -5,6 +5,7 @@ import Counter from "./components/Counter";
 import UserContainer from "./components/UserContainer";
 import QuoteRotator from "./components/QuoteRotator";
 import MagneticButton from "./components/MagneticButton";
+import TypewriterTerminal from "./components/TypewriterTerminal";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <UserContainer />
         <QuoteRotator />
         <MagneticButton text="Launch 🚀" />
+        <TypewriterTerminal />
       </main>
 
       <Footer />
